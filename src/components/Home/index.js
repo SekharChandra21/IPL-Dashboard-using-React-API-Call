@@ -1,8 +1,8 @@
 // Write your code here
 import {Component} from 'react'
-import TeamCard from '../TeamCard'
 import Loader from 'react-loader-spinner'
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
+import TeamCard from '../TeamCard'
 import './index.css'
 
 class Home extends Component {
@@ -29,6 +29,7 @@ class Home extends Component {
 
     this.setState({isLoading: false, iplData: updatedData})
   }
+
   render() {
     const {isLoading, iplData} = this.state
     return (
@@ -43,7 +44,7 @@ class Home extends Component {
         </div>
         <div>
           {isLoading ? (
-            <div testid="loader">
+            <div data-testid="loader">
               <Loader type="Oval" color="#ffffff" height={50} width={50} />
             </div>
           ) : (

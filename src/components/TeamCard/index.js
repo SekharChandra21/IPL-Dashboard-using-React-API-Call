@@ -1,6 +1,6 @@
 // Write your code here
-import {Component} from 'react'
 import {Link} from 'react-router-dom'
+import {Component} from 'react'
 import './index.css'
 
 class TeamCard extends Component {
@@ -8,10 +8,10 @@ class TeamCard extends Component {
     const {iplDetails} = this.props
     const {id, name, teamImageUrl} = iplDetails
     return (
-      <Link to={`/teams/:${id}`}>
+      <Link key={id} to={`/team-matches/:${id}`}>
         <li className="team-card-container">
           <img className="team-logo" src={teamImageUrl} alt={name} />
-          <h1 className="team-name">{name}</h1>
+          <p className="team-name">{name}</p>
         </li>
       </Link>
     )

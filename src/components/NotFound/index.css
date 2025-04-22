@@ -1,1 +1,7 @@
 /* Write your CSS here */
+.not-found-text{
+    font-family: Bree Serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
