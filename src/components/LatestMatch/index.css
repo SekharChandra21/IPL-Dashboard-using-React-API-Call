@@ -1,0 +1,62 @@
+/* Write your CSS here */
+
+.latest-match {
+  font-family: Bree Serif;
+  color: white;
+  font-size: 24px;
+}
+.latest_match_details {
+  padding: 20px;
+  height: 25%;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #1e293b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latest-match-image {
+  height: 220px;
+  width: 160px;
+}
+.match-headers {
+  color: white;
+  font-family: Bree Serif;
+  justify-content: flex-start;
+}
+
+.innings {
+  justify-content: flex-end;
+  color: white;
+  font-family: Bree Serif;
+}
+
+.compet-heading {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.venue {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.result {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.details {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
